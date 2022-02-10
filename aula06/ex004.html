@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: normal 20px Arial;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>
+        var nome = window.prompt('Qual seu nome?');
+        var salario = 1350.5
+        document.write(`Olá, ${nome}! Seu nome tem ${nome.length} letras.<br>`); //mostra quantidade de caracteres .lenght
+        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}.<br>`) 
+        document.write(`Seu nome em minuscula é ${nome.toLowerCase()}.<br>`);
+        salario.toLocaleString('pt-br', {style:'currency', currency: 'BRL'});
+        document.write(`Valor do salario em Real: ${salario.toLocaleString('pt-br', {style:'currency', currency: 'BRL'})}`); //transforma a string na moeda brasileira
+    </script>
+</body>
+</html>
