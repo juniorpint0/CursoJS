@@ -53,15 +53,8 @@ function checar(){
         }else {
             res.innerHTML = `Detectamos ${genero} com ${idade} anos.`;
         }
-        
         res.appendChild(img);
         
-        
     }
-
-
-
-    var sex = window.document.getElementById("sex");
-
     
 }
